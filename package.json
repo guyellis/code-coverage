@@ -1,23 +1,24 @@
 {
-  "name": "code-coverage",
-  "version": "1.0.0",
-  "description": "Research how to get accurate code coverage metrics on non-included modules",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/guyellis/code-coverage/issues"
   },
+  "description": "Research how to get accurate code coverage metrics on non-included modules",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "jasmine-node": "^1.14.5"
+  },
+  "homepage": "https://github.com/guyellis/code-coverage#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "code-coverage",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/guyellis/code-coverage.git"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/guyellis/code-coverage/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "coverage": "istanbul cover "
   },
-  "homepage": "https://github.com/guyellis/code-coverage#readme",
-  "devDependencies": {
-    "istanbul": "^0.4.2",
-    "jasmine": "^2.4.1"
-  }
+  "version": "1.0.0"
 }
