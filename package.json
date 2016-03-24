@@ -1,0 +1,23 @@
+{
+  "name": "code-coverage",
+  "version": "1.0.0",
+  "description": "Research how to get accurate code coverage metrics on non-included modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guyellis/code-coverage.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guyellis/code-coverage/issues"
+  },
+  "homepage": "https://github.com/guyellis/code-coverage#readme",
+  "devDependencies": {
+    "istanbul": "^0.4.2",
+    "mocha": "^2.4.5"
+  }
+}
