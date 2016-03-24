@@ -18,6 +18,6 @@
   "homepage": "https://github.com/guyellis/code-coverage#readme",
   "devDependencies": {
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5"
+    "jasmine": "^2.4.1"
   }
 }
